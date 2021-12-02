@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#logo img{
+    width: 70px;
+}
+.display-6{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 7px;
+    padding-left: 100px;
+}
+.container-fluid{
+    background-color:rgba(0, 0, 0);
+    border-bottom: 1px solid #ffff;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    
+}
+.container-fluid:hover{
+    box-shadow: 5px 7px 10px gray;
+    cursor: pointer;
+}
+.nav-link{
+    font-size: 20px;
+    border:2px solid transparent;
+    color: black;
+}
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    transition: 1s;
+    color:white;
+}
+.carousel img{
+    height: 500px;
+    position: sticky;
+    top: 0;
+}
+#card img{
+    height: 100px;
+}
+#con{
+    background-color: black;
+}
+
+P{
+
+color: rgba(255, 255, 255, 0.37);
+}
+#facebook{
+    color: #ffff;
+}
+#logo{
+    width: 7px;
+    /* display:flex;
+    align-items: center;
+    padding: 10px; */
+    border-radius: 20px;
+}
+#menu a{
+    color: white;
+}
+.display-6{
+    color: #ffff;
+}
+body{
+    background-color: #efefef;
+}
+/* #atpoint{
+    border: 2px solid red;
+    padding: 6px;
+} */
+#but{
+    color: #ffff;
+}
